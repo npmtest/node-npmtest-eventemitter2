@@ -1,6 +1,6 @@
 # npmtest-eventemitter2
 
-#### test coverage for  [eventemitter2 (v4.1.0)](https://github.com/hij1nx/EventEmitter2#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-eventemitter2.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-eventemitter2) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-eventemitter2.svg)](https://travis-ci.org/npmtest/node-npmtest-eventemitter2)
+#### basic test coverage for  [eventemitter2 (v4.1.0)](https://github.com/hij1nx/EventEmitter2#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-eventemitter2.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-eventemitter2) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-eventemitter2.svg)](https://travis-ci.org/npmtest/node-npmtest-eventemitter2)
 
 #### A Node.js event emitter implementation with namespaces, wildcards, TTL and browser support.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-eventemitter2/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-eventemitter2/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-eventemitter2/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-eventemitter2/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-eventemitter2/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-eventemitter2/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-eventemitter2/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-eventemitter2/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-eventemitter2/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-eventemitter2/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-eventemitter2/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-eventemitter2/build/coverage.html/index.html)
 
@@ -106,7 +106,8 @@
         "definition": "./eventemitter2.d.ts"
     },
     "typings": "./eventemitter2.d.ts",
-    "version": "4.1.0"
+    "version": "4.1.0",
+    "bin": {}
 }
 ```
 
